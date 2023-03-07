@@ -1,0 +1,31 @@
+.customer_container {
+    background: #f4f4f5;
+}
+
+.testimonial-content {
+    margin-bottom: 38px;
+    padding: 65px 40px 70px;
+    background: url(../../assets/images/testimonial-quote/testimonial-quote.png) no-repeat 25px 87% #fff;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #d9dbe0;
+    position: relative;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.10);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.10);
+}
+
+.testimonial-content p {
+    font-size: 20px;
+}
+
+.testimonials-author {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 5px;
+}
+
+.rating i {
+    color: rgb(205, 81, 81);
+    font-size: 20px;
+}

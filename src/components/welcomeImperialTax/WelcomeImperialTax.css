@@ -1,0 +1,18 @@
+.welcomeImperialTax_container {
+    background: #f3f5fa;
+}
+
+.vedio {
+    width: 100%;
+    aspect-ratio: 12/9;
+}
+
+.count_section {
+    background-image:
+    linear-gradient(rgba(255, 255, 255, 0.777), rgba(255, 255, 255, 0.777), rgba(255, 255, 255, 0.777), rgba(255, 255, 255, 0.777)),
+    url('../../assets/images/CountDownBackgroundImage/count-bg.jpg');/* background: url('../../assets/images/CountDownBackgroundImage/count-bg.jpg'), linear-gradient(rgba(75, 74, 74, 0.469), rgba(72, 69, 69, 0.469), rgba(23, 22, 22, 0.76), rgba(11, 11, 11, 0.714)); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 400px; */
+    border-radius: 5px;
+}

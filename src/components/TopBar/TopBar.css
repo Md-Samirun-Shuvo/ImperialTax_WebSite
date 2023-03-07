@@ -1,0 +1,54 @@
+.topBar_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 15px 60px;
+  background: #483a6d;
+  position: relative;
+}
+.yearOfExperience,
+.phoneContact,
+.officeLocation,
+.serviceHours {
+  text-align: center;
+  color: #fff;
+}
+
+.leftClipPath{
+  width: 100px;
+  height: 66px;
+  clip-path: polygon(0 0, 0% 100%, 38% 100%);
+  position: absolute;
+  background: #ffffff;
+  top: 0;
+  z-index: 999;
+}
+.rightClipPath{
+  width: 100px;
+  height: 66px;
+  clip-path: polygon(100% 0, 62% 100%, 100% 100%);
+  position: absolute;
+  background: #ffffff;
+  top: 0;
+  margin-left: 1197px;
+  z-index: 999;
+}
+
+@media screen and (max-width: 786px) {
+  .topBar_section{
+    background: #483a6d;
+  }
+  .topBar_container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    padding: 15px 60px;
+    background: none;
+    position: relative;
+  }
+  .leftClipPath{
+    display: none;
+  }
+  .rightClipPath{
+    display: none;
+  }
+}
