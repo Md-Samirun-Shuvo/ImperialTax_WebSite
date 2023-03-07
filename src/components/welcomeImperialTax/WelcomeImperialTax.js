@@ -1,10 +1,10 @@
 import React from "react";
 import "./WelcomeImperialTax.css";
-// import imperialVideo from "../../assets/video/imperialtax.mp4";
+import imperialVideo from "../../assets/video/imperialtax.mp4";
 import vedioPoster from "../../assets/video/video-thumb.jpg";
 
 const WelcomeImperialTax = () => {
-  const srcVedio = "https://streamable.com/e0dvcy";
+  // const srcVedio = "https://streamable.com/e0dvcy";
   return (
     <div className="welcomeImperialTax_container">
     
@@ -31,18 +31,18 @@ const WelcomeImperialTax = () => {
             </button>
           </div>
           <div className="col-sm-12 col-md-6 p-3">
-            <video
+            {/* <video
               className="vedio"
               poster={vedioPoster}
               src={srcVedio}
               controls
-            ></video>
-            {/* <video
+            ></video> */}
+            <video
               className="vedio"
               poster={vedioPoster}
               src={imperialVideo}
               controls
-            ></video> */}
+            ></video>
             {/* <iframe className="vedio" src={srcVedio}></iframe> */}
           </div>
         </div>
