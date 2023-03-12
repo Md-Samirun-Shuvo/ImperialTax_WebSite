@@ -25,8 +25,8 @@ const Contact = () => {
       );
   };
   return (
-    <div className="contact_container">
-      <div className="container">
+    <div className="contact_container pb-5" id="contact">
+      <div className="container pb-5">
         <h4 className="text-center pt-5">Contact with us</h4>
         <div className="d-flex justify-content-center align-items-center">
           <hr className="w-25" />

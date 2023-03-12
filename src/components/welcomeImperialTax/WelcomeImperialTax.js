@@ -28,7 +28,7 @@ const WelcomeImperialTax = () => {
         if (happyCustomers < 114) {
           setHappyCustomers((happyCustomers) => happyCustomers + 1);
         }
-      }, 30);
+      }, 10);
 
       return () => clearInterval(interval);
     }

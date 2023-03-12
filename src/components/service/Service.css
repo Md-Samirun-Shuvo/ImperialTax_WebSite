@@ -1,0 +1,29 @@
+.service_section {
+    background: #f3f5fa;
+}
+
+.service_card {
+    display: flex;
+    flex-direction: column;
+    background-color: #322554;
+    border-radius: .25rem;
+    color: white;
+    text-align: center;
+    margin: 12px 0px;
+}
+
+.service_card:hover {
+    background-color: #483a6d;
+    transition: all 0.3s ease-in-out;
+}
+
+.service_card:hover img {
+    transform: rotateY(360deg);
+}
+
+.service_card img {
+    width: 30%;
+    padding: 30px 30px 10px 30px;
+    margin: 0px auto;
+    transition: all 0.7s ease-in-out;
+}

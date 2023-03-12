@@ -1,0 +1,22 @@
+.about_section{
+    background: white;
+}
+.about_right_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+.about_right_content img{
+    width: 100%;
+    border-radius: 10px;
+}
+.history_section{
+    padding-top: 20px;
+}
+.history-content {
+    margin-left: 94px;
+    padding: 0 0 50px 50px;
+    border-left: 1px solid #90949f;
+    position: relative;
+}

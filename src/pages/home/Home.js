@@ -5,12 +5,16 @@ import WelcomeImperialTax from "./../../components/welcomeImperialTax/WelcomeImp
 import Customer from "./../../components/customer/Customer";
 import Contact from "./../../components/contact/Contact";
 import Footer from "./../../components/footer/Footer";
+import About from "../../components/about/About";
+import Service from "../../components/service/Service";
 
 const Home = () => {
   return (
     <>
       <Header />
       <WelcomeImperialTax />
+      <About />
+      <Service />
       <Customer />
       <Contact />
       <Footer />

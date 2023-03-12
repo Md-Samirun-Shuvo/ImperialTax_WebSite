@@ -1,5 +1,6 @@
 import React from "react";
-import './Nav.css';
+import "./Nav.css";
+import { HashLink as Link } from "react-router-hash-link";
 import logo from "../../assets/images/logo/logo.png";
 
 const Nav = () => {
@@ -22,19 +23,19 @@ const Nav = () => {
           <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">
+                <Link smooth to="#home" aria-current="page" class="nav-link">
                   HOME
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <Link smooth to="#about" aria-current="page" class="nav-link">
                   ABOUT US
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
+                <Link smooth to="#service" aria-current="page" class="nav-link">
                   SERVICES
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
@@ -52,12 +53,12 @@ const Nav = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact" tabindex="-1" aria-disabled="true">
+                <Link smooth to="#contact" aria-current="page" class="nav-link">
                   CONTACT US
-                </a>
+                </Link>
               </li>
             </ul>
-            <form class="d-flex">
+            {/* <form class="d-flex">
               <input
                 class="form-control me-2"
                 type="search"
@@ -67,7 +68,7 @@ const Nav = () => {
               <button class="btn btn-outline-success" type="submit">
                 Search
               </button>
-            </form>
+            </form> */}
           </div>
         </div>
       </nav>
