@@ -57,7 +57,7 @@ const Service = () => {
           <div className="d-flex justify-content-center align-items-center">
             <hr className="w-25" />
           </div>
-          <div className="row pb-5">
+          <div className="row py-5">
             {services.map((service) => (
               <div key={service.id} className="col-sm-12 col-md-4">
                 <div class="service_card">
