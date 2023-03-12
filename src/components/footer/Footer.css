@@ -1,6 +1,9 @@
-.footer_top_container{
+/* .footer_container{
+    background-image: url('../../assets/images//footer-image/colorfull-row.jpg');
+} */
+.footer_top_container {
     text-align: center;
-    background: gainsboro;
+    background: #f4f4f5;
     padding: 50px 0px;
 }
 .footer_top_social_icon i{

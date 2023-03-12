@@ -1,9 +1,13 @@
 import React from "react";
 import "./Footer.css";
-
+import footerImg from "../../assets/images/footer-image/colorfull-row.jpg";
 const Footer = () => {
   return (
-    <div className="footer_container">
+    <>
+    <div>
+      <img src={footerImg} alt="" srcset="" />
+    </div>
+      <div className="footer_container">
       <div className="footer_top_container">
         <div className="footer_top_social_icon">
           <i class="bi bi-facebook"></i>
@@ -24,6 +28,7 @@ const Footer = () => {
           </p>
         </div>
     </div>
+    </>
   );
 };
 

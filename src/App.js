@@ -10,7 +10,7 @@ function App() {
         <TopBar />
         <Nav />
       </div>
-      <div className="homepagecontainer" id="home">
+      <div className="homepagecontainer">
         <Home />
       </div>
     </div>
